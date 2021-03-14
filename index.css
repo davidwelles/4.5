@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+  }
+  #header{
+      background-color: black;
+      height: 150px;
+      width: auto;
+      
+  }
+  h1{
+      color: white;
+      text-align: center;
+    
+  }
