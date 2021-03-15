@@ -9,6 +9,13 @@ body {
   }
   h1{
       color: white;
+      padding-top: 100px;
       text-align: center;
     
   }
+ #demo{
+height: auto;
+width: 200px;
+
+ } 
+

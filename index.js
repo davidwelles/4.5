@@ -1,6 +1,7 @@
 //function for displaying image in HTML document
 function myDisplayer (some) {
   document.getElementById('demo').innerHTML = some
+  
 }
 //API request for picture
 function getFile (myCallback) {
