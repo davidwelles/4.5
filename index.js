@@ -9,7 +9,7 @@ function getFile (myCallback) {
   req.open('GET', 'https://images.dog.ceo/breeds/doberman/n02107142_6859.jpg')
   req.onload = function () {
     if (req.status == 200) {
-      myCallback(this.responseText)  //Trying to display as an image
+      myCallback(this.response.json)  //Trying to display as an image
     } else {
       myCallback('Error: ' + req.status)
     }
